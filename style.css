@@ -93,6 +93,49 @@ section{
 
 
 
+footer{
+    margin-top: 100px;
+    background-color: bisque;
+}
+
+
+
+.footer{
+    display: flex;
+    padding: 50px 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.image img{
+    transition: .5s;
+}
+
+
+.image img:hover{
+    transform: scale(1.2);
+}
+
+
+
+
+.footer-nav{
+    display: flex;
+    gap: 70px;
+}
+
+
+.footer-nav a{
+    font-size: 24px;
+    color: blue;
+    transition: .3s;
+}
+
+.footer-nav a:hover{
+    color: brown;
+    transform: scale(1.2);
+}
 
 
 
