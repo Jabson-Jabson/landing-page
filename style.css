@@ -44,6 +44,53 @@ header{
 }
 
 
+section{
+    max-width: 1440px;
+    margin: 0 auto;
+    
+    
+}
+
+
+.section{
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+}
+
+
+.tittle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+
+.tittle h1{
+    font-size: 30px;
+    color: crimson;
+}
+
+
+.tittle p{
+    font-size: 20px;
+    color: rgb(11, 5, 95);
+}
+
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.cards img{
+    width: 450px;
+    height: 300px;
+}
+
 
 
 
